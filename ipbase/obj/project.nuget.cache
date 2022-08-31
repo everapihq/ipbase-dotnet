@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "VMWgNGPwQRfR/wQj53Dpk9EmYfRih3lymwLf7OPLVplNZCIW1P+Ho7U+XE/4ik+JWSrJu40MKCkwrBtHpbz2Tw==",
+  "dgSpecHash": "e2BC+xQHRbKKR+5Xmk8L8ECc3FmGPNw7Gy5CXXxN4gQD4sCkLZCXRew2yQxGv0/5G1W5okhkx7IJ4aweIG+UyQ==",
   "success": true,
   "projectFilePath": "/Users/benediktstoy/Development/ruby/ipbase-dotnet/ipbase/ipbase.csproj",
   "expectedPackageFiles": [
-    "/Users/benediktstoy/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
-    "/Users/benediktstoy/.nuget/packages/netstandard.library.ref/2.1.0/netstandard.library.ref.2.1.0.nupkg.sha512"
+    "/Users/benediktstoy/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

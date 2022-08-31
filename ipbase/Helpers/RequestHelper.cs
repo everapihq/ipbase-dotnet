@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Net;
 
 namespace ipbase.Helpers
@@ -19,7 +20,7 @@ namespace ipbase.Helpers
             return GetResponse(url);
         }
 
-        public static string Info(string apiKey, string ip, string language = "")
+        public static string Info(string apiKey, string ip, string language)
         {
             string url;
             url = BaseUrl + "/info?ip="+ ip +"&language=" + language + "&apikey=" + apiKey;
@@ -34,12 +35,29 @@ namespace ipbase.Helpers
             var request = (HttpWebRequest)WebRequest.Create(url);
             request.AutomaticDecompression = DecompressionMethods.GZip;
 
-            using (var response = (HttpWebResponse)request.GetResponse())
-            using (var stream = response.GetResponseStream())
-            using (var reader = new StreamReader(stream))
+            try
             {
-                jsonString = reader.ReadToEnd();
+                using (var response = (HttpWebResponse)request.GetResponse())
+                using (var stream = response.GetResponseStream())
+                using (var reader = new StreamReader(stream))
+                {
+                    jsonString = reader.ReadToEnd();
+                }
             }
+            catch (WebException e)
+            {
+                using (WebResponse response = e.Response)
+                {
+                    HttpWebResponse httpResponse = (HttpWebResponse)response;
+                    Console.WriteLine("Error code: {0}", httpResponse.StatusCode);
+                    using (Stream data = response.GetResponseStream())
+                    using (var reader = new StreamReader(data))
+                    {
+                        jsonString = reader.ReadToEnd();
+                    }
+                }
+            }
+
 
             return jsonString;
         }

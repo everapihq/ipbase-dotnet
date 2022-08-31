@@ -21,7 +21,7 @@ namespace ipbase
             return RequestHelper.Status(ApiKey);
         }
 
-        public string Info(string ip, string language)
+        public string Info(string ip, string language = "")
         {
             return RequestHelper.Info(ApiKey, ip, language);
         }
