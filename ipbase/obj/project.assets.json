@@ -53,11 +53,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/benediktstoy/Projects/ipbase/ipbase/ipbase.csproj",
+      "projectUniqueName": "/Users/benediktstoy/Development/ruby/ipbase-dotnet/ipbase/ipbase.csproj",
       "projectName": "ipbase",
-      "projectPath": "/Users/benediktstoy/Projects/ipbase/ipbase/ipbase.csproj",
+      "projectPath": "/Users/benediktstoy/Development/ruby/ipbase-dotnet/ipbase/ipbase.csproj",
       "packagesPath": "/Users/benediktstoy/.nuget/packages/",
-      "outputPath": "/Users/benediktstoy/Projects/ipbase/ipbase/obj/",
+      "outputPath": "/Users/benediktstoy/Development/ruby/ipbase-dotnet/ipbase/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/benediktstoy/.nuget/NuGet/NuGet.Config"

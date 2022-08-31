@@ -2,7 +2,7 @@
 <img src="https://app.ipbase.com/img/logo/ipbase.png" width="300"/>
 </p>
 
-# ipbase-ruby
+# ipbase-dotnet
 
 ipbase-dotnet is the official C# Wrapper around the [ipbase](https://app.ipbase.com) API.
 
@@ -44,7 +44,7 @@ You can find further information on https://ipbase.com/docs/
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/everapihq/ipbase-ruby. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/everapihq/ipbase-ruby/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/everapihq/ipbase-dotnet. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/everapihq/ipbase-dotnet/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 
@@ -52,4 +52,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Ipbase project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/everapihq/ipbase-ruby/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Ipbase project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/everapihq/ipbase-dotnet/blob/master/CODE_OF_CONDUCT.md).
