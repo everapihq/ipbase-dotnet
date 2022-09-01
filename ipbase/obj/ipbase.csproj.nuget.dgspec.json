@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "/Users/benediktstoy/Development/ruby/ipbase-dotnet/ipbase/ipbase.csproj",
-        "projectName": "ipbase",
+        "projectName": "Ipbase",
         "projectPath": "/Users/benediktstoy/Development/ruby/ipbase-dotnet/ipbase/ipbase.csproj",
         "packagesPath": "/Users/benediktstoy/.nuget/packages/",
         "outputPath": "/Users/benediktstoy/Development/ruby/ipbase-dotnet/ipbase/obj/",
@@ -37,12 +37,6 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
-          "dependencies": {
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

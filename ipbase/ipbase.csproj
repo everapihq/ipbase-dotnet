@@ -2,6 +2,29 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageId>Ipbase</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Benedikt Stoy</Authors>
+    <Company>Everapi GmbH</Company>
+    <PackageTags>Ip;Ipbase;Api;Ipcheck;IP address converter; IPv4;IPv6</PackageTags>
+    <Title>Ipbase Api</Title>
+    <Description>
+      This client library enables working with the Ipbase API - https://ipbase.com/
+      Register here for an Apikey to use the API - https://app.currencyapi.com/register
+      See Github repository here - https://github.com/everapihq/ipbase-dotnet
+    </Description>
+    <Summary>This is the official NuGet package for ipbase API.(https://ipbase.com/)</Summary>
+    <Copyright>Copyright © Everapi GmbH 2022</Copyright>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageIcon>ipbase.png</PackageIcon>
+    <PackageProjectUrl>https://ipbase.com/</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl> 
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Nullable>enable</Nullable>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,8 +33,5 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Helpers\" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 </Project>
