@@ -1,5 +1,3 @@
-![Ipbase](ipbase.png)
-
 # ipbase-dotnet
 
 ipbase-dotnet is the official C# Wrapper around the [ipbase](https://app.ipbase.com) API.
