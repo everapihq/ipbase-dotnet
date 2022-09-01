@@ -1,6 +1,4 @@
-<p align="center">
-<img src="https://app.ipbase.com/img/logo/ipbase.png" width="300"/>
-</p>
+![Ipbase](ipbase.png)
 
 # ipbase-dotnet
 

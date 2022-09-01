@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <PackageId>Ipbase</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Benedikt Stoy</Authors>
     <Company>Everapi GmbH</Company>
     <PackageTags>Ip;Ipbase;Api;Ipcheck;IP address converter; IPv4;IPv6</PackageTags>
@@ -16,7 +16,8 @@
     <Summary>This is the official NuGet package for ipbase API.(https://ipbase.com/)</Summary>
     <Copyright>Copyright © Everapi GmbH 2022</Copyright>
     <NeutralLanguage>en-US</NeutralLanguage>
-    <PackageIcon>ipbase.png</PackageIcon>
+    <PackageIcon>ipbase-icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageProjectUrl>https://ipbase.com/</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PublishRepositoryUrl>true</PublishRepositoryUrl> 
@@ -26,7 +27,13 @@
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
   </PropertyGroup>
-
+  <ItemGroup>
+    <None Remove="**\*.orig" />
+    <None Include="..\LICENSE.md" Pack="true" PackagePath="LICENSE.md" />
+    <None Include="..\ipbase.png" Pack="true" PackagePath="ipbase.png" />
+    <None Include="..\ipbase-icon.png" Pack="true" PackagePath="ipbase-icon.png" />
+    <None Include="..\README.md" Pack="true" PackagePath="README.md" />
+  </ItemGroup>
   <ItemGroup>
     <None Remove="Helpers\" />
     <None Remove="Newtonsoft.Json" />

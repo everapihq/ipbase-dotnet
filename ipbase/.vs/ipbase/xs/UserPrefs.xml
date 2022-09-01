@@ -3,16 +3,18 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Helpers/RequestHelper.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ipbase.csproj">
     <Files>
-      <File FileName="Helpers/RequestHelper.cs" Line="41" Column="65" />
+      <File FileName="Helpers/RequestHelper.cs" Line="61" Column="1" />
       <File FileName="Ipbase.cs" Line="26" Column="37" />
+      <File FileName="ipbase.csproj" Line="25" Column="32" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ipbase" expanded="True">
             <Node name="ipbase" expanded="True">
+              <Node name="Dependencies" expanded="True" />
               <Node name="Helpers" expanded="True" />
             </Node>
           </Node>

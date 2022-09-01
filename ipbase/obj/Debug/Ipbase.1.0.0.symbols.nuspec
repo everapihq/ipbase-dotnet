@@ -7,8 +7,9 @@
     <authors>Benedikt Stoy</authors>
     <license type="expression">MIT</license>
     <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>ipbase.png</icon>
+    <readme>README.md</readme>
     <projectUrl>https://ipbase.com/</projectUrl>
-    <iconUrl>https://app.ipbase.com/img/logo/ipbase.png</iconUrl>
     <description>This client library enables working with the Ipbase API - https://ipbase.com/
       Register here for an Apikey to use the API - https://app.currencyapi.com/register
       See Github repository here - https://github.com/everapihq/ipbase-dotnet</description>
